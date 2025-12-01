@@ -96,16 +96,19 @@ ai_bootcamp_capstone/
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd ai_bootcamp_capstone
+cd ML---Final-Project
 
 # Create virtual environment
-conda create -n sales-forecast python=3.11
+conda create -n sales-forecast python=3.12
 conda activate sales-forecast
+
+# Install OpenMP for XGBoost (macOS only)
+brew install libomp
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Install project as package
+# Install project as package (optional)
 pip install -e .
 ```
 

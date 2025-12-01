@@ -1,4 +1,4 @@
-from config import setup_page_config, hide_streamlit_elements, create_navigation
+from config import setup_page_config, apply_custom_css, create_header, create_navigation
 from data_loader import load_data, load_cleaned_data
 from pages.overview import render_overview_page
 from pages.time_analysis import render_time_analysis_page
@@ -8,13 +8,23 @@ from pages.customer_analysis import render_customer_analysis_page
 from pages.ai_insights import render_ai_insights_page
 
 def main():
+    # Setup page configuration
     setup_page_config()
-    hide_streamlit_elements()
     
+    # Apply custom CSS styling
+    apply_custom_css()
+    
+    # Create professional header
+    create_header()
+    
+    # Load data
     df = load_data()
     df_cleaned = load_cleaned_data()
+    
+    # Create navigation tabs
     tabs = create_navigation()
     
+    # Render each page in its respective tab
     with tabs[0]: 
         render_overview_page(df)
     with tabs[1]:

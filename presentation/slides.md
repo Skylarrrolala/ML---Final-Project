@@ -11,7 +11,7 @@
 
 # Sales Forecasting Using Ensemble Machine Learning
 
-### A Comparative Study of Prophet and LSTM Models
+### A Comparative Study of Prophet, LSTM, and Advanced Models
 
 **Student**: [Your Name]  
 **Course**: Machine Learning Final Project  
@@ -26,11 +26,12 @@
 
 1. **Problem Statement** - Why sales forecasting matters
 2. **Dataset Overview** - E-commerce sales data (2014-2018)
-3. **Methodology** - Models and ensemble approach
-4. **Results** - Performance comparison
-5. **Validation** - Statistical rigor
-6. **Business Value** - Practical applications
-7. **Conclusions** - Key takeaways and future work
+3. **Methodology** - Multiple modeling approaches
+4. **Results** - Ensemble vs Individual models
+5. **Advanced Model** - XGBoost with feature engineering
+6. **Validation** - Statistical rigor and diagnostics
+7. **Business Value** - Practical applications
+8. **Conclusions** - Key takeaways and future work
 
 ---
 
@@ -46,6 +47,8 @@
 
 **Technical Challenge**:
 > How to accurately predict future sales while capturing both seasonal patterns and complex temporal dependencies?
+
+**📊 IMAGE**: Use the "Monthly Sales Trend" chart from EDA notebook (Cell 9) showing time series pattern
 
 ---
 
