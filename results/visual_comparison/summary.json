@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "model": "Prophet (60%) + LSTM (40%)",
+    "mape": 19.3,
+    "r2": 0.84,
+    "direction_accuracy": 83.3
+  },
+  "improved": {
+    "model": "XGBoost with Feature Engineering",
+    "mape": 11.6,
+    "r2": 0.856,
+    "direction_accuracy": 72.7,
+    "features": 43
+  },
+  "improvement": {
+    "mape_reduction": 7.7,
+    "mape_improvement_pct": 39.9,
+    "r2_increase": 0.016
+  },
+  "visualizations": [
+    "performance_comparison.png",
+    "feature_importance.png",
+    "prediction_comparison.png",
+    "improvement_summary.png"
+  ]
+}

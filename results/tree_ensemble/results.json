@@ -1,0 +1,24 @@
+{
+  "model": "XGBoost + LightGBM Ensemble",
+  "weights": {
+    "xgb": 0.6,
+    "lgb": 0.4,
+    "name": "XGB Favored"
+  },
+  "metrics": {
+    "mape": 20.55054498269614,
+    "r2": 0.5130482281520966,
+    "mae": 10816.970696896706,
+    "direction_accuracy": 72.72727272727273
+  },
+  "baseline_comparison": {
+    "baseline_mape": 19.3,
+    "baseline_r2": 0.84,
+    "mape_improvement_pct": -6.479507682363425,
+    "r2_improvement_pct": -38.92282998189326
+  },
+  "individual_models": {
+    "xgboost_mape": 14.937093305850599,
+    "lightgbm_mape": 37.07752303456322
+  }
+}
